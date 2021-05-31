@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mid-content {
+  width: 1075px;
+  max-width: auto;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.text-decoration {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+.header {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+}
+
+.header-image {
+  float: left;
+  width: 30%;
+}
+.header-image img {
+  max-width: 25%;
+}
+.header-menu {
+  float: right;
+  width: 70%;
+  height: 55px;
+  line-height: 33px;
+}
+.header-menu ul {
+  background: #fff;
+  height: 55px;
+}
+.header-menu ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: -4px;
+}
+.header-menu ul li a {
+  display: block;
+  color: #000;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.header-menu ul li:hover > a {
+  color: aqua;
+}
+/* Dropdown start */
+
+/* Banner */
+.banner {
+  background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 160px 0;
+  background-attachment: scroll;
+  margin-top: 55px;
+}
+.banner h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -45px;
+}
+.banner h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 900;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.banner .btn {
+  color: rgb(150, 146, 146);
+  background: #fff;
+  padding: 9px 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 1px 1px 1px 1px #ddd;
+  transition: 0.5s;
+}
+.banner .btn:hover {
+  background: blue;
+  color: #fff;
+  box-shadow: none;
+}
+/* About  */
+.about {
+  background: #fff;
+  padding: 60px 0;
+}
+.about h1 {
+  font-size: 55px;
+}
+.about p {
+  font-size: 17px;
+  color: black;
+  margin-top: 20px;
+}
+  /*Content*/
